@@ -6,12 +6,8 @@ Tip calculator and bill splitter for Even Realities G2 glasses. Enter amount, pi
 
 | View | Preview |
 |------|---------|
-| [Cover](#) | ![Cover art](media/00-cover-glasses.png) |
 | [Title screen](#) | ![Title screen](media/01-title-glasses.png) |
-| [Calculator](#) | ![Tip calculation on glasses](media/02-active-glasses.png) |
 | [Phone companion](#) | ![Phone WebView](media/01-title-webview.png) |
-
-![Cover](media/00-cover-glasses.png)
 
 ![Tip calculator on glasses](media/02-active-glasses.png)
 
