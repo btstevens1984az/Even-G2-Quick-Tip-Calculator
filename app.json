@@ -1,0 +1,13 @@
+{
+  "package_id": "dev.quicktip.g2",
+  "edition": "202601",
+  "name": "Quick Tip",
+  "version": "1.0.1",
+  "min_app_version": "2.0.0",
+  "min_sdk_version": "0.0.11",
+  "entrypoint": "index.html",
+  "permissions": [],
+  "supported_languages": [
+    "en"
+  ]
+}

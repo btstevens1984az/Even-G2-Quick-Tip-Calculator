@@ -1,0 +1,24 @@
+{
+  "name": "quick-tip-g2",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "pack": "node scripts/hub-pack.mjs quick-tip.ehpk",
+    "icons": "ICON_LABEL=TIP node scripts/generate-hub-icons.mjs",
+    "simulate": "evenhub-simulator http://localhost:5173",
+    "capture-media": "node scripts/generate-media.mjs"
+  },
+  "dependencies": {
+    "@evenrealities/even_hub_sdk": "^0.0.11"
+  },
+  "devDependencies": {
+    "@evenrealities/evenhub-cli": "^0.1.13",
+    "@evenrealities/evenhub-simulator": "^0.7.2",
+    "playwright": "^1.49.0",
+    "typescript": "^5.7.0",
+    "vite": "^5.4.0"
+  }
+}
